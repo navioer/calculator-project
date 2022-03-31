@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p data-previous-operand></p>
+                </div>
+                <div id="output">
+                    <p data-current-operand></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator" data-all-clear>AC</button>
+                <button class="operator" data-delete>C</button>
+                <button class="operator" data-operation>%</button>
+                <button class="operator" data-operation>÷</button>
+                <button class="number" data-number>7</button>
+                <button class="number" data-number>8</button>
+                <button class="number" data-number>9</button>
+                <button class="operator" data-operation>x</button>
+                <button class="number" data-number>4</button>
+                <button class="number" data-number>5</button>
+                <button class="number" data-number>6</button>
+                <button class="operator" data-operation>-</button>
+                <button class="number" data-number>1</button>
+                <button class="number" data-number>2</button>
+                <button class="number" data-number>3</button>
+                <button class="operator" data-operation>+</button>
+                <button class="number" data-number>00</button>
+                <button class="number" data-number>0</button>
+                <button class="number" data-number>.</button>
+                <button class="operator" data-equals>=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
